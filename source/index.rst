@@ -10,7 +10,7 @@ Continuous Integration using Travis-CI
 
 The sphinx builder allows you to specify a builder that produces no output, but
 the input is parsed and checked for consistency, which makes it perfect for
-linting.
+linting with `Tavis-CI`_.
 
 Continuous Deployment using Netlify
 ===================================
