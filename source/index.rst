@@ -8,7 +8,9 @@ An example of continuous integration and deployment of a sphinx project using
 Continuous Integration using Travis-CI
 ======================================
 
-This will be the first step.
+The sphinx builder allows you to specify a builder that produces no output, but
+the input is parsed and checked for consistency, which makes it perfect for
+linting.
 
 Continuous Deployment using Netlify
 ===================================
