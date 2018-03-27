@@ -88,8 +88,11 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-html_theme_options = {
-    'githuburl': 'https://github.com/jdillard/continuous-sphinx/',
+html_context = {
+  'display_github': True,
+  'github_user': 'jdillard',
+  'github_repo': 'continuous-sphinx',
+  'github_version': 'master/source/'
 }
 
 # The name of an image file (within the static path) to use as favicon of the
