@@ -16,7 +16,6 @@ for row in $(curl -H "Travis-API-Version: 3" -H "User-Agent: API Explorer" -H "A
     fi
 done
 
-
 # https://www.netlify.com/docs/api/#deploys
 echo "Retrieving Netlify deploy for Travis-CI build ${good_build}..."
 for row in $(curl -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" https://api.netlify.com/api/v1/sites/continuous-sphinx.netlify.com/deploys | jq -r '.[] | @base64'); do
@@ -30,7 +29,6 @@ for row in $(curl -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" https://api.ne
         good_deploy=$(_jq '.id')
    fi
 done
-echo $good_deploy
 
 # https://www.netlify.com/docs/api/#deploys
 echo "Publishing Netlify build ${good_deploy}..."
