@@ -17,7 +17,7 @@ Travis-CI also supports the linting of Pull Requests.
 Continuous Deployment using Netlify
 ===================================
 
-This will be the second step.
+`Netlyfy`_ will auto deploy the main documentation branch as well as pull requests to their own unique (subdomain) URL.
 
 .. _Travis-CI: https://travis-ci.org/
 .. _Netlify: https://www.netlify.com/
