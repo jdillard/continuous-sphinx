@@ -12,7 +12,7 @@ continuous integration process we need to use `Netlify's restore deploy
 feature`_ on build failures.
 
 .. note:: It is possible for their to be a brief window where tha failed
-`Netlify`_ build is published before the restore deploy call is run.
+   `Netlify`_ build is published before the restore deploy call is run.
 
 .. _custom script: https://github.com/jdillard/continuous-sphinx/blob/master/restore.sh
 .. _GitHub: https://github.com
