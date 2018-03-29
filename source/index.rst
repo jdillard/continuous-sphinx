@@ -2,22 +2,14 @@
 Continuous Sphinx
 =================
 
-An example of continuous integration and deployment of a sphinx project using
-`Travis-CI`_ and `Netlify`_.
+A living example of a sphinx project that uses `Travis-CI`_ for continuous
+integration and `Netlify`_ for continuous deployment.
 
-Continuous Integration using Travis-CI
-======================================
+.. toctree::
+   :maxdepth: 2
 
-The sphinx builder allows you to specify a builder that produces no output, but
-the input is parsed and checked for consistency, which makes it perfect for
-linting with `Travis-CI`_.
-
-Travis-CI also supports the linting of Pull Requests.
-
-Continuous Deployment using Netlify
-===================================
-
-This will be the second step.
+   continuous-integration
+   continuous-deployment
 
 .. _Travis-CI: https://travis-ci.org/
 .. _Netlify: https://www.netlify.com/
