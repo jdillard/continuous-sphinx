@@ -28,7 +28,7 @@ Using `PR #3`_ as an example, you can see it has a **Details** link to the
 .. figure:: _static/pr-build-fail.png
    :figclass: align-center
 
-   This is PR that caused a failed build.
+   This is a PR that caused a failed build.
 
 .. _all pull requests: https://travis-ci.org/jdillard/continuous-sphinx/pull_requests
 .. _dummy builder: http://www.sphinx-doc.org/en/master/_modules/sphinx/builders/dummy.html
