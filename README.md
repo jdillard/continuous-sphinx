@@ -8,4 +8,4 @@ and deployment, using [Netlify](https://www.netlify.com/), of a
 [sphinx](http://www.sphinx-doc.org/) project.
 
 The production version of the deployed site, as well as additional documentation
-on the process, can be viewed here: https://continuous-sphinx.netlify.com/
+on the process, can be viewed here: https://continuous-sphinx.netlify.com/en/latest/
