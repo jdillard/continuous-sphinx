@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, jdillard
+# This file is distributed under the same license as the Continuous Sphinx
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuous Sphinx 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 23:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../source/continuous-integration.rst:2
+msgid "Continuous Integration using Travis-CI"
+msgstr "Kontinuierliche Integration mit Travis-CI"
+
+#: ../../source/continuous-integration.rst:4
+msgid ""
+"Continuous Integration is basically integrating your newest addition of "
+"code, or markup language, into the larger project and running a series of"
+" tests to make sure it behaves as expected. In the case of a sphinx "
+"project, the most important test is to lint the submitted "
+"reStructuredText to make sure it has correct syntax."
+msgstr ""
+
+#: ../../source/continuous-integration.rst:10
+msgid ""
+"For linting purposes, the ``sphinx-build`` command allows you to specify "
+"a `dummy builder`_ that does syntax checks, but doesn't write output."
+msgstr ""
+
+#: ../../source/continuous-integration.rst:13
+msgid ""
+"You can also use ``-n`` to run the builder in \"nit-picky mode\", which "
+"warns about all missing references, combined with ``-W`` to turn all "
+"warnings into errors. And finally, ``-T`` to show full traceback on "
+"exception to help debug failed build logs."
+msgstr ""
+
+#: ../../source/continuous-integration.rst:18
+msgid ""
+"Not only can you configure `Travis-CI`_ to run on the `master branch`_, "
+"but it also supports running integration tests on `all pull requests`_ "
+"before they are to be merged."
+msgstr ""
+
+#: ../../source/continuous-integration.rst:22
+msgid ""
+"Travis-CI also integrates with GitHub so you can see the build status on "
+"each commit or PR and wether or not the build it triggered passed or "
+"failed."
+msgstr ""
+
+#: ../../source/continuous-integration.rst:25
+msgid ""
+"Using `PR #3`_ as an example, you can see it has a **Details** link to "
+"the `latest build for that PR`_."
+msgstr ""
+"Mit `PR #3`_ als Beispiel sehen Sie, dass es einen **Details** link zu "
+"der `neueste Build für diesen PR`_"
+
+#: ../../source/continuous-integration.rst:31
+msgid "This is a PR that caused a failed build."
+msgstr "Dies ist eine PR, die einen fehlgeschlagenen Build verursacht hat."
+

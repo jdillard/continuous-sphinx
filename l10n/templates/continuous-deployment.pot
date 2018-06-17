@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, jdillard
+# This file is distributed under the same license as the Continuous Sphinx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuous Sphinx 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 23:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/continuous-deployment.rst:2
+msgid "Continuous Deployment using Netlify"
+msgstr ""
+
+#: ../../source/continuous-deployment.rst:4
+msgid "`Netlify`_ allows you to trigger a build, and more importantly a deployment, of a sphinx project based on `GitHub commits`_ and `pull requests`_. Thus creating the continuous deployment portion of the pipeline."
+msgstr ""
+
+#: ../../source/continuous-deployment.rst:8
+msgid "Using `PR #3`_ as an example, you can see it has a **Details** link to the `latest netlify build specific to that PR`_."
+msgstr ""
+
+#: ../../source/continuous-deployment.rst:14
+msgid "This is a PR that caused a failed build."
+msgstr ""
+
+#: ../../source/continuous-deployment.rst:16
+msgid "Although, since unfortunately we can't trigger a Netlify build based on a `Travis-CI`_ build status we have to add a `custom script`_ to the `Travis-CI configuration`_. Since we only want to deploy the site if the project passes the continuous integration process we need to use `Netlify's restore deploy feature`_ on build failures."
+msgstr ""
+
+#: ../../source/continuous-deployment.rst:22
+msgid "It is possible for their to be a brief window where the failed `Netlify`_ build is published before the restore deploy call is run."
+msgstr ""
+
