@@ -27,7 +27,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-#site base url
+# Site base url
 site_url = 'https://continuous-sphinx.netlify.com/'
 
 
