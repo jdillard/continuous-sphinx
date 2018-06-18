@@ -30,6 +30,8 @@ sys.path.insert(0, os.path.abspath('.'))
 # Site base url
 site_url = 'https://continuous-sphinx.netlify.com/'
 
+# Absolute path of conf.py
+conf_abs_path = os.path.abspath(__file__)
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
