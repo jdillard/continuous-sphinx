@@ -27,8 +27,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-# Site base url
-site_url = 'https://continuous-sphinx.netlify.com/'
+html_baseurl = 'https://continuous-sphinx.netlify.com/'
 
 # Absolute path of conf.py
 conf_abs_path = os.path.abspath(__file__)
