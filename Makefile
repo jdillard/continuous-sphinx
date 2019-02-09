@@ -10,5 +10,7 @@ help:
 html:
 	sphinx-build source build/en/latest
 	sphinx-build -D language='de' source build/de/latest
+	mv build/en/latest/sitemapindex.xml build
+	mv build/en/latest/robots.txt build
 	@echo
 	@echo "Build finished. The HTML pages are in build."
