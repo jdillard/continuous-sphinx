@@ -8,8 +8,8 @@ help:
 	@echo "  html       to make standalone HTML files"
 
 html:
-	sphinx-build source build/en/latest
-	sphinx-build -D language='de' source build/de/latest
+	sphinx-build -E source build/en/latest
+	sphinx-build -E -D language='de' source build/de/latest
 	mv build/en/latest/sitemapindex.xml build
 	mv build/en/latest/robots.txt build
 	@echo
