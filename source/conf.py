@@ -35,7 +35,7 @@ conf_abs_path = os.path.abspath(__file__)
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_sitemap']
+extensions = ['sphinx_sitemap', 'sphinx_gitstamp']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -89,7 +89,7 @@ todo_include_todos = False
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = ["../_themes", ]
 
 html_context = {
   'display_github': True,
@@ -115,7 +115,10 @@ html_extra_path = ['robots.txt', 'sitemapindex.xml']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = ''
+#html_last_updated_fmt = ''
+
+# Date format for git timestamps
+gitstamp_fmt = "%b %d %Y"
 
 # If true, links to the reST sources are added to the pages.
 html_show_sourcelink = False
