@@ -5,7 +5,7 @@
 
 An example of continuous integration, using [Travis-CI](https://travis-ci.org/),
 and deployment, using [Netlify](https://www.netlify.com/), of a
-[sphinx](http://www.sphinx-doc.org/) project.
+[sphinx](http://www.sphinx-doc.org/) project. This is also reffered to as **Docs as Code** and **DocOps**.
 
 The production version of the deployed site, as well as additional documentation
 on the process, can be viewed here: https://continuous-sphinx.netlify.com/en/latest/
