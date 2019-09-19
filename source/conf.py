@@ -9,7 +9,6 @@
 import sys
 import os
 import shlex
-import sphinx_rtd_theme
 
 # Redefine supported_image_types for the HTML builder
 from sphinx.builders.html import StandaloneHTMLBuilder
