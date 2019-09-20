@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sphinx-rtd-theme = "==0.4.2"
+sphinx-sitemap = "==1.0.2"
+sphinx-gitstamp = "==0.3.0"
+Sphinx = "==1.8.3"
+
+[requires]
+python_version = "3.6"
