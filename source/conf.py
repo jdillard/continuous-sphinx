@@ -99,6 +99,17 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["../_themes", ]
 
+html_theme_options = {
+    'versions': [
+        ("latest", "/en/latest")
+    ],
+    'languages': [
+        ("en", "/en/latest"),
+        ("de", "/de/latest"),
+    ],
+    'current_version': version
+}
+
 html_context = {
   'display_github': True,
   'github_user': 'jdillard',
