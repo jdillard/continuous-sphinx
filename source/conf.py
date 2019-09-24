@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Continuous Sphinx'
-copyright = '2018, jdillard'
+copyright = '2018, Jared Dillard'
 author = 'jdillard'
 
 # The version info for the project you're documenting, acts as replacement for
