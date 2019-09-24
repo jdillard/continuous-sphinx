@@ -87,6 +87,8 @@ todo_include_todos = False
 # Omit any prefix values from the static 404 URLs
 notfound_no_urls_prefix = True
 
+html_css_files = ['custom.css']
+
 
 # -- Options for HTML output ----------------------------------------------
 
