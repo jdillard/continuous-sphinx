@@ -1,4 +1,5 @@
 sphinx
 sphinx-sitemap
+sphinx-gitstamp
 sphinx-notfound-page
 sphinx-rtd-theme
