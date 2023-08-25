@@ -41,7 +41,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['../_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -97,10 +97,14 @@ html_css_files = ['custom.css']
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["../_themes", ]
+# html_theme_path = ["../_themes", ]
 
-html_theme_options = {
-    'versions': [
+html_context = {
+  'display_github': True,
+  'github_user': 'jdillard',
+  'github_repo': 'continuous-sphinx',
+  'github_version': 'master/source/',
+  'versions': [
         ("latest", "/en/latest")
     ],
     'languages': [
@@ -108,13 +112,6 @@ html_theme_options = {
         ("de", "/de/latest"),
     ],
     'current_version': version
-}
-
-html_context = {
-  'display_github': True,
-  'github_user': 'jdillard',
-  'github_repo': 'continuous-sphinx',
-  'github_version': 'master/source/'
 }
 
 # The name of an image file (within the static path) to use as favicon of the

@@ -2,3 +2,8 @@
 .wy-breadcrumbs li a:first-child {
     padding-left: 5px;
 }
+
+.wy-breadcrumbs li a {
+    display: inline-block;
+    padding: 5px;
+}
